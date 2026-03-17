@@ -1,0 +1,50 @@
+Package: BioDataExplorer
+Title: Interactive Biological Data Quality and Exploration Toolkit
+Version: 0.1.0
+Authors@R: 
+    person("Your Name", email = "your.email@example.com", role = c("aut", "cre"))
+Description: A comprehensive toolkit for exploring, diagnosing, and summarising 
+    biological datasets. Provides automated variable type detection, missing data 
+    diagnostics (including MCAR/MAR/MNAR classification), variable relationship 
+    analysis, and interactive visualisation via a Shiny dashboard. Designed for 
+    clinical metadata, microbiome/metagenomics data, and general tabular biological 
+    data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends:
+    R (>= 4.1.0)
+Imports:
+    shiny (>= 1.7.0),
+    shinydashboard,
+    shinyWidgets,
+    DT,
+    ggplot2,
+    dplyr,
+    tidyr,
+    naniar,
+    visdat,
+    VIM,
+    corrplot,
+    readr,
+    readxl,
+    vegan,
+    janitor,
+    skimr,
+    rmarkdown,
+    bslib,
+    plotly,
+    htmltools,
+    purrr,
+    forcats,
+    stringr
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    phyloseq,
+    microbiome
+VignetteBuilder: knitr
+LazyData: true
+URL: https://github.com/yourusername/BioDataExplorer
+BugReports: https://github.com/yourusername/BioDataExplorer/issues

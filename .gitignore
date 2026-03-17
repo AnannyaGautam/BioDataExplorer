@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.o
+*.so
+*.dll
+inst/doc
+docs
+Meta
+NAMESPACE~
+.DS_Store
+Thumbs.db
